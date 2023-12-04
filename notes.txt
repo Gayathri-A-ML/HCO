@@ -1,0 +1,19 @@
+
+coroutine - each function we defined with async
+await - will ensure that coroutine completes its action
+awaitables - coroutine, Future, task
+task - can create for the coroutine and will start excute , if in the current func exec is waiting / completes
+future - can be retrun at future not now
+aiohttp - to make a concurent request to api'start
+aiofiles - to make a concurent accessing of read and write file
+wait_for - we can give the wait sec. will wait untill the wait sec if the coroutine finishes then fine else will through the exception
+event_loop - is used before 3.7 version if python to call the coroutine now we are using asyncio.run(coroutine)
+sleep - asyncio method to make the program to wait
+gather - can gather n task together will start executing concurently
+Shielding From Cancellation ?
+multi processing
+shared memory in multiprocessing
+gather vs taskgroup
+future
+exceptiongroup
+
